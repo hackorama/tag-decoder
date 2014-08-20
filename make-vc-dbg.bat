@@ -1,0 +1,2 @@
+cl /O /I "jpeg\include" /I"pthreads\include" /FD /EHsc /Fo"tmp\\" /Fd"tmp\vc80.pdb"  /MT /nologo /TP main.cpp threshold.cpp decoder.cpp config.cpp tagimage.cpp shape.cpp pixmap.cpp pattern.cpp matrix.cpp border.cpp /link /OUT:"decode-win32-dbg.exe" /NOLOGO /LIBPATH:"jpeg\lib\win32" /LIBPATH:"pthreads\lib" /MANIFEST /MANIFESTFILE:"tmp\Decode-Win32.exe.intermediate.manifest" /DEBUG /PDB:"tmp\Decode-Win32.pdb" libjpeg.a kernel32.lib pthreadVCE2.lib
+

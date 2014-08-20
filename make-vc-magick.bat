@@ -1,0 +1,2 @@
+cl /O2 /I "ImageMagick-6.2.8-Q16-Win32\include" /FD /EHsc /Fo"tmp\\" /Fd"tmp\vc80.pdb"  /MT /nologo /TP main.cpp threshold.cpp decoder.cpp config.cpp tagimage.cpp shape.cpp pixmap.cpp pattern.cpp matrix.cpp border.cpp /link /OUT:"decode-win32-dbg.exe" /NOLOGO /LIBPATH:"ImageMagick-6.2.8-Q16-Win32\lib" /MANIFEST /MANIFESTFILE:"tmp\Decode-Win32.exe.intermediate.manifest" /DEBUG /PDB:"tmp\Decode-Win32.pdb" CORE_RL_magick_.lib  kernel32.lib
+
