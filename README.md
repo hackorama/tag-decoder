@@ -6,3 +6,11 @@ Developed for J2ME/Symbian phones and was obsoleted by the smart phone era with 
 
 
 This is the C++ version of the tag decoder code that runs on server side.
+
+Sample tags
+
+![alt design](https://github.com/hackorama/tag-decoder/blob/master/docs/mytago-banner.png)
+
+Tag Service System
+
+![alt design](https://github.com/hackorama/tag-decoder/blob/master/docs/mytago-tag-service-system.png)
